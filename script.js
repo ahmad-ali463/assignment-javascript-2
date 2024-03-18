@@ -38,7 +38,7 @@ document.getElementById("Comaparsionoperator").onclick = function(){
 
 
 document.getElementById("ifElseif").onclick = function(){
-    let num1 = 10;
+    let num1 = 16;
     let num2 = 14;
     console.log(num1 + num2);
 
@@ -46,8 +46,8 @@ document.getElementById("ifElseif").onclick = function(){
     if(num1 > num2){
         console.log("num 1 is equal to num2")
     }
-    else if (num1 >= num2){
-        console.log("num1 is greater than num 2  ")
+    else if (num1 === num2){
+        console.log("num1 is equal num 2  ")
  }
  else if (num1 <= num2 ){
     console.log ("num1 is greater than num 2 ")
@@ -56,6 +56,59 @@ document.getElementById("ifElseif").onclick = function(){
     console.log("num1 is not equal num 2")
  }
 }
+
+
+
+document.getElementById("TestingSetofCondition").onclick = function(){
+let age = +prompt("Enter your age?");
+let weight = +prompt("Enter your weight?");
+
+if(age >= 18 && weight <= 60){
+console.log("you are a smart man")
+}
+else if(age >= 18 && weight > 60) {
+    console.log("you are a fat guy")
+}
+else{
+    console.log("you are a baby")
+}
+}
+
+
+
+document.getElementById("ifStatementnested").onclick = function(){
+let age = +prompt("your age?")
+
+if(age >= 18){
+    let weight = +prompt("your weight")
+
+    if (weight<=70){
+        console.log("your are smart man")
+    }
+    else{
+        console.log("you are a fat man")
+    }
+}
+else{
+    console.log("you are a baby")
+}
+}
+
+
+document.getElementById("Login").onclick = function(){
+    let userName = prompt("your username")
+    let password = prompt("your pass")
+
+    if(userName === "Ahmad" && password === "041"){
+        console.log("you are loggined")
+    }
+    else{
+        console.log("your username or password is  incorrect")
+    }
+}
+    
+   
+ 
 
 
 
