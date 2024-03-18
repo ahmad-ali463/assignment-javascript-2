@@ -109,6 +109,8 @@ document.getElementById("Login").onclick = function(){
     
    
  
-
+document.getElementById("Clear").onclick = function(){
+    document.getElementById("ahmad").innerHTML = "";
+}
 
 
