@@ -1,10 +1,10 @@
 document.getElementById("string").onclick = function (){
     let Message = "Good boy "
-    let Name = "Ahtesham Zaib Qudrat"
+    let Name = "Muhammad Ahmad"
 let fullName = Message + " " + Name;
 
     // console.log(fullName)
-    document.getElementById("Ahtesham Zaib Qudrat").innerHTML= Message + " " + Name;
+    document.getElementById("Muhammad Ahmad").innerHTML= Message + " " + Name;
 
 }
 
